@@ -1,6 +1,6 @@
 {
   "name": "@tenders-sa-org/widget-top-companies",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Tenders-SA Top Companies Widget - Embeddable leaderboard of top companies by awarded tender value",
   "homepage": "https://tenders-sa.org/publishers/developers",
   "bugs": {
