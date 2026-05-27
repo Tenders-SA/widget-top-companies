@@ -6,7 +6,7 @@
 
 ```html
 <div data-tendersa-top-companies data-limit="5" data-province="all" data-category="all" data-theme="light"></div>
-<script src="https://cdn.tenders-sa.org/widgets/widget-top-companies.js"></script>
+<script src="https://unpkg.com/@tenders-sa-org/widget-top-companies@latest/dist/widget-top-companies.global.js"></script>
 ```
 
 ### Data Attributes
@@ -23,7 +23,7 @@
 
 ```html
 <div id="my-widget"></div>
-<script src="https://cdn.tenders-sa.org/widgets/widget-top-companies.js"></script>
+<script src="https://unpkg.com/@tenders-sa-org/widget-top-companies@latest/dist/widget-top-companies.global.js"></script>
 <script>
   var widget = new TendersaTopCompanies.TopCompaniesWidget({
     province: 'gauteng',
