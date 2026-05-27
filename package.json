@@ -1,0 +1,30 @@
+{
+  "name": "@tendersa/widget-top-companies",
+  "version": "0.1.0-alpha.0",
+  "description": "Tenders-SA Top Companies Widget - Embeddable leaderboard of top companies by awarded tender value",
+  "homepage": "https://tenders-sa.org/publishers/developers",
+  "bugs": { "url": "https://github.com/Tenders-SA/widget-top-companies/issues" },
+  "license": "MIT",
+  "author": "Tenders-SA (https://tenders-sa.org)",
+  "repository": { "type": "git", "url": "git+https://github.com/Tenders-SA/widget-top-companies.git" },
+  "type": "module",
+  "main": "./dist/widget-top-companies.umd.js",
+  "module": "./dist/widget-top-companies.js",
+  "types": "./dist/index.d.ts",
+  "files": ["dist", "README.md", "LICENSE"],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "prepublishOnly": "npm run build"
+  },
+  "engines": { "node": ">=18" },
+  "packageManager": "npm@11+",
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "tsup": "^8.5.1",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.7"
+  }
+}
